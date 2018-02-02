@@ -57,3 +57,8 @@ typings/
 # dotenv environment variables file
 .env
 
+# Distribtion Output Directory
+dist/
+
+package-lock.json
+

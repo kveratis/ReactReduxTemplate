@@ -1,0 +1,49 @@
+{
+  "name": "ecase_web",
+  "version": "2.0.0",
+  "description": "eCase web application for handling workflow of incoming documents",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ./src/*.js*",
+    "test": "jest",
+    "watch": "webpack --watch",
+    "build-debug": "webpack --config webpack.dev.js",
+    "build-release": "webpack --config webpack.prod.js"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    }
+  },
+  "author": "Daniel Petersen",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.1",
+    "babel-jest": "^22.1.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.18",
+    "css-loader": "^0.28.9",
+    "eslint": "^4.16.0",
+    "file-loader": "^1.1.6",
+    "html-webpack-plugin": "^2.30.1",
+    "style-loader": "^0.20.1",
+    "uglifyjs-webpack-plugin": "^1.1.8",
+    "webpack": "^3.10.0",
+    "webpack-merge": "^4.1.1"
+  },
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
+    "redux": "^3.7.2",
+    "superagent": "^3.8.2",
+    "superagent-no-cache": "^0.1.1",
+    "superagent-prefix": "0.0.2"
+  }
+}
