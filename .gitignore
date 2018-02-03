@@ -59,6 +59,3 @@ typings/
 
 # Distribtion Output Directory
 dist/
-
-package-lock.json
-
