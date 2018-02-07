@@ -21,3 +21,4 @@ npm install --save react-redux
 npm install --save superagent
 npm install --save superagent-no-cache
 npm install --save superagent-prefix
+npm install --save material-ui
